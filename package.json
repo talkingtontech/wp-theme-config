@@ -1,5 +1,5 @@
 {
-  "name": "wp-theme-config",
+  "name": "ttech-theme-config",
   "version": "1.0.0",
   "description": "Talkington Tech's default Grunt configuration for WordPress themes.",
   "main": "index.js",
