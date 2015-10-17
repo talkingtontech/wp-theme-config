@@ -1,3 +1,8 @@
+## 2.0.0
+
+- Forked from WP Site Care
+- Changed code style and new lines
+
 ## 1.0.0
 
 - Changed peerDependencies to standard dependencies. This breaks compatibility with npm2 and older
