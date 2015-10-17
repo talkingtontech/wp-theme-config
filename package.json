@@ -1,22 +1,18 @@
 {
-  "name": "sitecare-theme-config",
+  "name": "wp-theme-config",
   "version": "1.0.0",
-  "description": "WP Site Care's default Grunt configuration for WordPress themes.",
+  "description": "Talkington Tech's default Grunt configuration for WordPress themes.",
   "main": "index.js",
   "license": "MIT",
   "contributors": [
     {
-      "name": "Brady Vercher",
-      "url": "http://www.cedaro.com/"
-    },
-    {
-      "name": "Robert Neu",
-      "url": "http://www.wpsitecare.com"
+      "name": "Chris Talkington",
+      "url": "https://talkingtontech.com/"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wpsitecare/sitecare-theme-config.git"
+    "url": "https://github.com/talkingtontech/wp-theme-config.git"
   },
   "dependencies": {
     "autoprefixer": "6.x",
