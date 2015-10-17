@@ -4,12 +4,10 @@
   "description": "Talkington Tech's default Grunt configuration for WordPress themes.",
   "main": "index.js",
   "license": "MIT",
-  "contributors": [
-    {
-      "name": "Chris Talkington",
-      "url": "https://talkingtontech.com/"
-    }
-  ],
+  "author": {
+    "name": "Chris Talkington",
+    "url": "https://talkingtontech.com/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/talkingtontech/wp-theme-config.git"
