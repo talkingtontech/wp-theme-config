@@ -1,3 +1,7 @@
+## 2.0.2
+
+- Added support for template and template version in theme header.
+
 ## 2.0.1
 
 - Updated package.json
