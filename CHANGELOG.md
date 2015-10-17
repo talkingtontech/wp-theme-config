@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Updated package.json
+
 ## 2.0.0
 
 - Forked from WP Site Care
