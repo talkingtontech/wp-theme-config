@@ -1,3 +1,7 @@
+## 2.0.3
+
+- deps: updated to grunt-postcss@0.7.x.
+
 ## 2.0.2
 
 - Added support for template and template version in theme header.
