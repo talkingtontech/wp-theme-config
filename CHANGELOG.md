@@ -1,3 +1,7 @@
+## 2.0.5
+
+- config: don't embed fonts in stylesheet.
+
 ## 2.0.4
 
 - deps: updated to grunt-contrib-compress@0.14.x.
