@@ -8,6 +8,7 @@ module.exports = {
         browsers: [
           'Android >= 2.1',
           'Chrome >= 21',
+          'Edge >= 12',
           'Explorer >= 8',
           'Firefox >= 17',
           'Opera >= 12.1',
