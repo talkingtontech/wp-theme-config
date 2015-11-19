@@ -2,10 +2,8 @@
 module.exports = {
   theme: {
     options: {
-      sourceMap: true,
-      sourceMapName: 'js/theme.js.map',
-      sourceMapIncludeSources: true,
       preserveComments: /^!/,
+      sourceMap: false,
       mangle: true,
       compress: true,
       report: 'gzip'
