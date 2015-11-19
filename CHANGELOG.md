@@ -1,3 +1,10 @@
+## 2.0.6
+
+- deps: update to autoprefixer@6.1.x.
+- deps: update to grunt-contrib-clean@0.7.x.
+- deps: update to grunt-contrib-imagemin@1.0.x.
+- config: run build:css:watch on scss change to allow for better configuration.
+
 ## 2.0.5
 
 - config: don't embed fonts in stylesheet.
