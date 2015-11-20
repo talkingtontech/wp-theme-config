@@ -1,3 +1,9 @@
+## 2.0.7
+
+- config(uglify): preserve elevated comments.
+- config(uglify): stop generating sourcemaps.
+- config(usebanner): remove extraneous spacing.
+
 ## 2.0.6
 
 - deps: update to autoprefixer@6.1.x.
