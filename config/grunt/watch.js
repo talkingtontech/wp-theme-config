@@ -11,15 +11,6 @@ module.exports = {
       'build:js'
     ]
   },
-  icons: {
-    files: [
-      '<%= files.icons %>'
-    ],
-    tasks: [
-      'newer:imagemin:icons',
-      'webfont'
-    ]
-  },
   php: {
     files: [
       '<%= files.php %>'
