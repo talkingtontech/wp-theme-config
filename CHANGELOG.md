@@ -1,3 +1,8 @@
+## 2.0.8
+
+- deps: update to grunt-contrib-uglify@0.11.x.
+- deps: update to grunt-webfont@1.1.x.
+
 ## 2.0.7
 
 - config(uglify): preserve elevated comments.
