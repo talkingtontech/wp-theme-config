@@ -1,3 +1,7 @@
+## 2.0.9
+
+- deps: downgrade to grunt-webfont@0.5.x.
+
 ## 2.0.8
 
 - deps: update to grunt-contrib-uglify@0.11.x.
