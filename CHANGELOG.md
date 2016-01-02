@@ -1,3 +1,12 @@
+## 2.2.0
+
+- use textdomain property from root of package.json.
+- use default options for cssmin.
+- deps: add grunt-version@1.0.x.
+- deps: update to time-grunt@1.3.x.
+- deps: update to autoprefixer@6.2.x.
+- deps: drop checktextdomain.
+
 ## 2.1.0
 
 - drop grunt-webfont.
