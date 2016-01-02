@@ -1,4 +1,4 @@
-// https://github.com/blazersix/grunt-wp-i18n
+// https://github.com/cedaro/grunt-wp-i18n
 module.exports = {
   theme: {
     options: {
