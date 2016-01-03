@@ -1,3 +1,11 @@
+## 2.3.0
+
+- add release tasks that utilize grunt-version.
+- simplify and bring naming uniformity to several css related tasks.
+- drop grunt-wp-css as have never really used it and its one more post-processor to run.
+- fix readpkg mapping.
+- deps: add postcss-pxtorem@3.3.x.
+
 ## 2.2.0
 
 - use textdomain property from root of package.json.
