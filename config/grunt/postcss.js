@@ -11,19 +11,7 @@ module.exports = {
         rootValue: 16,
         propWhiteList: [
           'font',
-          'font-size',
-          'line-height',
-          'letter-spacing',
-          'margin',
-          'margin-left',
-          'margin-right',
-          'margin-top',
-          'margin-bottom',
-          'padding',
-          'padding-left',
-          'padding-right',
-          'padding-top',
-          'padding-bottom'
+          'font-size'
         ],
         selectorBlackList: [
           'html',
