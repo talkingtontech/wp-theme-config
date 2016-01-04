@@ -1,3 +1,7 @@
+## 2.3.3
+
+- workaround for double version bump with release aliases.
+
 ## 2.3.2
 
 - limit pxtorem to font sizes for now.
