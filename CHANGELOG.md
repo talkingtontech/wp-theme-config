@@ -1,3 +1,7 @@
+## 2.3.4
+
+- different workaround for double version bump with release aliases.
+
 ## 2.3.3
 
 - workaround for double version bump with release aliases.
