@@ -7,6 +7,7 @@ module.exports = {
     map: false,
     processors: [
       pxtorem({
+        replace: false,
         rootValue: 16,
         propWhiteList: [
           'font',
@@ -35,7 +36,7 @@ module.exports = {
           'Android >= 2.1',
           'Chrome >= 21',
           'Edge >= 12',
-          'Explorer >= 8',
+          'Explorer >= 9',
           'Firefox >= 17',
           'Opera >= 12.1',
           'Safari >= 6.0'
