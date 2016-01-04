@@ -1,5 +1,10 @@
 // https://github.com/kswedberg/grunt-version
 module.exports = {
+  options: {
+    pkg: {
+      version: '<%= pkg.version %>'
+    }
+  },
   project: {
     src: [
       'package.json',
@@ -8,9 +13,6 @@ module.exports = {
   },
   style: {
     options: {
-      pkg: {
-        version: '<%= pkg.version %>'
-      },
       prefix: '\\s+\\*\\s+Version:\\s+'
     },
     src: [
