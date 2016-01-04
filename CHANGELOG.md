@@ -1,3 +1,7 @@
+## 2.3.2
+
+- limit pxtorem to font sizes for now.
+
 ## 2.3.1
 
 - add fallback for rem font-size as it doesn't hurt and since its 2016 target IE9+.
