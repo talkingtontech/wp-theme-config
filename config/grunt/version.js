@@ -8,6 +8,9 @@ module.exports = {
   },
   style: {
     options: {
+      pkg: {
+        version: '<%= pkg.version %>'
+      },
       prefix: '\\s+\\*\\s+Version:\\s+'
     },
     src: [
