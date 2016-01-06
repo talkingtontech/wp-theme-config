@@ -2,7 +2,7 @@
 module.exports = {
   dist: {
     options: {
-      archive: '<%= paths.dist %><%= pkg.name %>-<%= pkg.version %>.zip'
+      archive: '<%= paths.dist %><%= package.name %>-<%= package.version %>.zip'
     },
     files: [
       {
@@ -28,13 +28,13 @@ module.exports = {
           '!gruntfile.js',
           '!package.json'
         ],
-        dest: '<%= pkg.name %>'
+        dest: '<%= package.name %>'
       }
     ]
   },
   dev: {
     options: {
-      archive: '<%= paths.dist %><%= pkg.name %>-developer-<%= pkg.version %>.zip'
+      archive: '<%= paths.dist %><%= package.name %>-developer-<%= package.version %>.zip'
     },
     files: [
       {
@@ -50,7 +50,7 @@ module.exports = {
           '!*.sublime*',
           '!.DS_Store'
         ],
-        dest: '<%= pkg.name %>'
+        dest: '<%= package.name %>'
       }
     ]
   }

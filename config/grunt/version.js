@@ -2,7 +2,7 @@
 module.exports = {
   options: {
     pkg: {
-      version: '<%= pkg.version %>'
+      version: '<%= package.version %>'
     }
   },
   project: {
