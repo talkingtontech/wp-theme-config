@@ -1,3 +1,7 @@
+## 2.3.5
+
+- swap pkg for package as load-grunt-config and in turn load-project-config already read the package file upfront.
+
 ## 2.3.4
 
 - different workaround for double version bump with release aliases.
