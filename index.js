@@ -32,7 +32,7 @@ module.exports = function() {
 	};
 
 	project.files = {
-		js:     project.paths.assets       + '{,*/}js/*.js',
+		js:     project.paths.assets       + 'js/**/*.js',
 		scss:   project.paths.authorAssets + 'scss/**/*.scss',
 		config: project.paths.config       + '**/*.js',
 		changelog: 'CHANGELOG.md'
