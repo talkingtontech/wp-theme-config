@@ -5,7 +5,7 @@ module.exports = {
       {
         expand: true,
         cwd: '<%= paths.authorAssets %>images/',
-        src: [ '*.*' ],
+        src: [ '**/*.{png,jpg,jpeg,gif,svg}' ],
         dest: '<%= paths.tmp %>images/'
       }
     ]
