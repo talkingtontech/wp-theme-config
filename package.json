@@ -13,7 +13,7 @@
     "url": "https://github.com/talkingtontech/wp-theme-config.git"
   },
   "dependencies": {
-    "autoprefixer": "~6.2.0",
+    "autoprefixer": "~6.3.0",
     "grunt": "~0.4.5",
     "grunt-contrib-clean": "~0.7.0",
     "grunt-contrib-compress": "~0.14.0",
