@@ -1,3 +1,7 @@
+## 2.4.1
+
+- fixup: simplify regex matching.
+
 ## 2.4.0
 
 - add version task for php constant in functions.php.
