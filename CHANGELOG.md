@@ -1,3 +1,9 @@
+## 2.4.0
+
+- add version task for php constant in functions.php.
+- deps: update to autoprefixer@6.3.x.
+- deps: update to grunt-contrib-jshint@0.12.x.
+
 ## 2.3.5
 
 - swap pkg for package as load-grunt-config and in turn load-project-config already read the package file upfront.
