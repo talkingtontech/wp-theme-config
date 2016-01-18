@@ -2,8 +2,8 @@
 module.exports = function() {
 	'use strict';
 
-	var path = require( 'path' ),
-		project = {};
+	var path = require('path');
+	var project = {};
 
 	project.paths = {
 		config:       'config/',
