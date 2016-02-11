@@ -1,3 +1,7 @@
+## 2.4.2
+
+- set pxtorem rootValue to 10 this mimicks browser defaults and should require less changing.
+
 ## 2.4.1
 
 - fixup: simplify regex matching.
