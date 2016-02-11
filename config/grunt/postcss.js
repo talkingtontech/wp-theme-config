@@ -8,7 +8,7 @@ module.exports = {
     processors: [
       pxtorem({
         replace: false,
-        rootValue: 16,
+        rootValue: 10,
         propWhiteList: [
           'font',
           'font-size'
