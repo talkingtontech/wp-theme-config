@@ -1,6 +1,6 @@
 {
   "name": "ttech-wp-theme-config",
-  "version": "2.4.2",
+  "version": "2.5.0",
   "description": "Talkington Tech's default Grunt configuration for WordPress themes.",
   "main": "index.js",
   "license": "MIT",

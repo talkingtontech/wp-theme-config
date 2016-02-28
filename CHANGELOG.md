@@ -1,3 +1,13 @@
+## 2.5.0
+
+- publish to npm registry.
+- deps: update to grunt-contrib-clean@1.0.x.
+- deps: update to grunt-contrib-compress@1.0.x.
+- deps: update to grunt-contrib-concat@1.0.x.
+- deps: update to grunt-contrib-jshint@1.0.x.
+- deps: update to grunt-potomo@3.4.x.
+- deps: update to grunt-rtlcss@2.0.x.
+
 ## 2.4.2
 
 - set pxtorem rootValue to 10 this mimicks browser defaults and should require less changing.
