@@ -1,3 +1,17 @@
+## 2.5.1
+
+- deps: update to grunt-contrib-compress@1.3.x.
+- deps: update to grunt-contrib-copy@1.0.x.
+- deps: update to grunt-contrib-cssmin@1.0.x.
+- deps: update to grunt-contrib-uglify@1.0.x.
+- deps: update to grunt-contrib-watch@1.0.x.
+- deps: update to grunt-newer@1.2.x.
+- deps: update to grunt-postcss@0.8.x.
+- deps: update to grunt-replace@1.0.x.
+- deps: update to grunt-sass@1.2.x.
+- deps: update to grunt-shell@1.3.x.
+- deps: update to grunt-version@1.1.x.
+
 ## 2.5.0
 
 - publish to npm registry.
