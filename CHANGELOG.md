@@ -1,3 +1,8 @@
+## 2.6.0
+
+- scss directory moved up and out of author assets.
+- deps: now using semver caret (^).
+
 ## 2.5.1
 
 - deps: update to grunt-contrib-compress@1.3.x.
