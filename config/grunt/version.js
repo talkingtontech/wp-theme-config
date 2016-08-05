@@ -24,7 +24,7 @@ module.exports = {
       prefix: '\\s+\\*\\s+Version:\\s+'
     },
     src: [
-      '<%= paths.authorAssets %>scss/style.scss'
+      'scss/style.scss'
     ]
   }
 };
