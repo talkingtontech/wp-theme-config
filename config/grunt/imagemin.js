@@ -1,13 +1,24 @@
 // https://github.com/gruntjs/grunt-contrib-imagemin
 module.exports = {
-  images: {
-    files: [
-      {
-        expand: true,
-        cwd: '<%= paths.authorAssets %>images/',
-        src: [ '**/*.{png,jpg,jpeg,gif,svg}' ],
-        dest: '<%= paths.tmp %>images/'
-      }
-    ]
-  }
+    images: {
+        files: [
+            {
+                expand: true,
+                cwd: '<%= paths.imagesSrc %>',
+                src: [
+                    '**/*.{png,jpg,jpeg,gif,svg}',
+                    '!screenshot.png'
+                ],
+                dest: '<%= paths.images %>'
+            },
+            {
+                expand: true,
+                cwd: '<%= paths.imagesSrc %>',
+                src: [
+                    'screenshot.png'
+                ],
+                dest: ''
+            }
+        ]
+    }
 };

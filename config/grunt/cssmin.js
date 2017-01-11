@@ -1,25 +1,26 @@
 // https://github.com/gruntjs/grunt-contrib-cssmin
 module.exports = {
-  theme: {
-    expand: true,
-    cwd: '<%= paths.tmp %>',
-    src: [
-      '*.css',
-      '!*.min.css'
-    ],
-    dest: '<%= paths.tmp %>',
-    ext: '.min.css',
-    extDot: 'last'
-  },
-  vendor: {
-    expand: true,
-    cwd: 'css/',
-    src: [
-      '*.css',
-      '!*.min.css'
-    ],
-    dest: 'css/',
-    ext: '.min.css',
-    extDot: 'last'
-  }
+    style: {
+        files: [
+            {
+                src: 'style.css',
+                dest: 'style.min.css'
+            },
+            {
+                src: 'style-rtl.css',
+                dest: 'style-rtl.min.css'
+            }
+        ]
+    },
+    vendor: {
+        expand: true,
+        cwd: '<%= paths.css %>',
+        src: [
+            '*.css',
+            '!*.min.css'
+        ],
+        dest: '<%= paths.css %>',
+        ext: '.min.css',
+        extDot: 'last'
+    }
 };

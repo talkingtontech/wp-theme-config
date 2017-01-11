@@ -1,3 +1,13 @@
+## 3.0.0
+
+- synced with wpsitecare/sitecare-theme-config@0ffe442
+- Bumped all dependencies to the latest version
+- Removed some unused aliases
+- Changed default directory structure
+- Removed grunt-shell
+- Removed Bower dependency
+- Removed Composer dependency
+
 ## 2.6.0
 
 - scss directory moved up and out of author assets.
