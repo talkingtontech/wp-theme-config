@@ -1,3 +1,9 @@
+## 3.1.0
+
+- synced with wpsitecare/sitecare-theme-config@6bf31a8
+- Bumped all dependencies to the latest version
+- Updated config files for addtextdomain and makepot
+
 ## 3.0.0
 
 - synced with wpsitecare/sitecare-theme-config@0ffe442
