@@ -11,8 +11,8 @@ module.exports = {
                 'plural-forms': 'nplurals=2; plural=(n != 1);',
                 'poedit': true,
                 'report-msgid-bugs-to': '<%= package.pot.reportmsgidbugsto %>',
-                'language-team': '<%= package.pot.lasttranslator %>',
-                'last-translator': '<%= package.pot.languageteam %>'
+                'language-team': '<%= package.pot.languageteam %>',
+                'last-translator': '<%= package.pot.lasttranslator %>'
             },
             processPot: function(pot) {
                 var translation,
