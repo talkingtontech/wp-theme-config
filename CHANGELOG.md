@@ -1,3 +1,9 @@
+## 4.0.0
+
+- synced with wpsitecare/sitecare-theme-config@09445b7
+- Dropped support for Bower in favor of using npm for all asset dependencies
+- Added some extra path variables
+
 ## 3.1.0
 
 - synced with wpsitecare/sitecare-theme-config@6bf31a8
