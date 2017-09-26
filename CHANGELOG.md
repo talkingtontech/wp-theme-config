@@ -1,3 +1,7 @@
+## 4.0.1
+
+- Bumped all dependencies to the latest version
+
 ## 4.0.0
 
 - synced with wpsitecare/sitecare-theme-config@09445b7
