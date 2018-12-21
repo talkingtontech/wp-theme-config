@@ -1,6 +1,9 @@
 // https://github.com/sindresorhus/grunt-sass
+const sass = require('node-sass');
+
 module.exports = {
     options: {
+        implementation: sass,
         outputStyle: 'compressed'
     },
     style: {
