@@ -2,14 +2,6 @@
 module.exports = {
     style: {
         files: [
-            {
-                src: 'style.css',
-                dest: 'style.min.css'
-            },
-            {
-                src: 'style-rtl.css',
-                dest: 'style-rtl.min.css'
-            }
         ]
     },
     vendor: {

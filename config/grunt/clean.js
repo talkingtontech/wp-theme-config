@@ -20,7 +20,6 @@ module.exports = {
     },
     js: {
         src: [
-            '<%= paths.js %>',
             '<%= paths.jsVend %>'
         ]
     },
