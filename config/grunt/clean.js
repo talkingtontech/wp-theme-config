@@ -3,6 +3,7 @@ module.exports = {
     css: {
         src: [
             '<%= paths.css %>',
+            '<%= paths.cssSrcVend %>',
             '<%= paths.cssVend %>',
             'style*.*'
         ]
