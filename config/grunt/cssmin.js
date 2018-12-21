@@ -1,9 +1,5 @@
 // https://github.com/gruntjs/grunt-contrib-cssmin
 module.exports = {
-    style: {
-        files: [
-        ]
-    },
     vendor: {
         expand: true,
         cwd: '<%= paths.css %>',
