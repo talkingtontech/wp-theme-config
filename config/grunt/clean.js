@@ -9,7 +9,6 @@ module.exports = {
     },
     fonts: {
         src: [
-            '<%= paths.fonts %>',
             '<%= paths.fontsVend %>'
         ]
     },
