@@ -1,3 +1,7 @@
+## 5.0.1
+
+- missed changes for newer development flow
+
 ## 5.0.0
 
 - Bumped all dependencies to the latest version
