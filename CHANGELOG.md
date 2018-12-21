@@ -1,3 +1,8 @@
+## 5.0.0
+
+- Bumped all dependencies to the latest version
+- many changes for newer development flow
+
 ## 4.0.1
 
 - Bumped all dependencies to the latest version
