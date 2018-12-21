@@ -1,12 +1,15 @@
 // https://github.com/sindresorhus/grunt-sass
 module.exports = {
     options: {
-        sourceMap: false,
-        outputStyle: 'expanded'
+        outputStyle: 'compressed'
     },
     style: {
         src: '<%= paths.cssSrc %>style.scss',
         dest: 'style.css'
+    },
+    theme: {
+        src: '<%= paths.cssSrc %>theme.scss',
+        dest: '<%= paths.css %>theme.css'
     },
     editorStyle: {
         src: '<%= paths.cssSrc %>editor-style.scss',
