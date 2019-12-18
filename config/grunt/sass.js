@@ -29,5 +29,9 @@ module.exports = {
     editor: {
         src: '<%= paths.cssSrc %>gutenberg-editor.scss',
         dest: '<%= paths.css %>gutenberg-editor.css'
+    },
+    editorStyle: {
+        src: '<%= paths.cssSrc %>editor-style.scss',
+        dest: '<%= paths.css %>editor-style.css'
     }
 };
