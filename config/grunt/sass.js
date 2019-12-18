@@ -14,8 +14,20 @@ module.exports = {
         src: '<%= paths.cssSrc %>theme.scss',
         dest: '<%= paths.css %>theme.css'
     },
-    editorStyle: {
-        src: '<%= paths.cssSrc %>editor-style.scss',
-        dest: '<%= paths.css %>editor-style.css'
+    critical: {
+        src: '<%= paths.cssSrc %>critical.scss',
+        dest: '<%= paths.css %>critical.css'
+    },
+    amp: {
+        src: '<%= paths.cssSrc %>amp.scss',
+        dest: '<%= paths.css %>amp.css'
+    },
+    gutenberg: {
+        src: '<%= paths.cssSrc %>gutenberg.scss',
+        dest: '<%= paths.css %>gutenberg.css'
+    },
+    editor: {
+        src: '<%= paths.cssSrc %>gutenberg-editor.scss',
+        dest: '<%= paths.css %>gutenberg-editor.css'
     }
 };
